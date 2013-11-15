@@ -16,13 +16,12 @@ import com.rti.dds.infrastructure.StatusKind;
 import com.rti.dds.subscription.DataReader;
 import com.rti.dds.subscription.DataReaderAdapter;
 import com.rti.dds.subscription.SampleInfo;
-import com.rti.dds.subscription.Subscriber;
 import com.rti.dds.topic.Topic;
 import com.rti.dds.type.builtin.StringDataReader;
 import com.rti.dds.type.builtin.StringTypeSupport;
 
 //****************************************************************************
-public class HelloSubscriber extends DataReaderAdapter {
+public class Subscriber extends DataReaderAdapter {
 
     // For clean shutdown sequence
     private static boolean shutdown_flag = false;
@@ -39,14 +38,25 @@ public class HelloSubscriber extends DataReaderAdapter {
             return;
         }
 
-        // Create the topic "Hello World" for the String type
-        Topic topic = participant.create_topic(
-                "Hello, World", 
+        // Create the topics
+        Topic topicNews = participant.create_topic(
+                "News",
                 StringTypeSupport.get_type_name(), 
                 DomainParticipant.TOPIC_QOS_DEFAULT, 
                 null, // listener
                 StatusKind.STATUS_MASK_NONE);
-        if (topic == null) {
+        if (topicNews == null) {
+            System.err.println("Unable to create topic.");
+            return;
+        }
+
+        Topic topicStocks = participant.create_topic(
+                "Stocks",
+                StringTypeSupport.get_type_name(),
+                DomainParticipant.TOPIC_QOS_DEFAULT,
+                null, // listener
+                StatusKind.STATUS_MASK_NONE);
+        if (topicStocks == null) {
             System.err.println("Unable to create topic.");
             return;
         }
@@ -54,9 +64,9 @@ public class HelloSubscriber extends DataReaderAdapter {
         // Create the data reader using the default publisher
         StringDataReader dataReader =
             (StringDataReader) participant.create_datareader(
-                topic, 
-                Subscriber.DATAREADER_QOS_DEFAULT,
-                new HelloSubscriber(),         // Listener
+                topicNews,
+                com.rti.dds.subscription.Subscriber.DATAREADER_QOS_DEFAULT,
+                new Subscriber(),         // Listener
                 StatusKind.DATA_AVAILABLE_STATUS);
         if (dataReader == null) {
             System.err.println("Unable to create DDS Data Reader");
