@@ -36,26 +36,48 @@ public class HelloPublisher {
             return;
         }
 
-        // Create the topic "Hello World" for the String type
-        Topic topic = participant.create_topic(
-                "Hello, World", 
+        // Create the topics
+        Topic topicNews = participant.create_topic(
+                "News",
                 StringTypeSupport.get_type_name(), 
                 DomainParticipant.TOPIC_QOS_DEFAULT, 
                 null, // listener
                 StatusKind.STATUS_MASK_NONE);
-        if (topic == null) {
+        if (topicNews == null) {
             System.err.println("Unable to create topic.");
             return;
         }
 
-        // Create the data writer using the default publisher
-        StringDataWriter dataWriter =
+        Topic topicStocks = participant.create_topic(
+                "Stocks",
+                StringTypeSupport.get_type_name(),
+                DomainParticipant.TOPIC_QOS_DEFAULT,
+                null, // listener
+                StatusKind.STATUS_MASK_NONE);
+        if (topicStocks == null) {
+            System.err.println("Unable to create topic.");
+            return;
+        }
+
+        // Create the data writers using the default publisher
+        StringDataWriter dataWriterNews =
             (StringDataWriter) participant.create_datawriter(
-                topic, 
+                topicNews,
                 Publisher.DATAWRITER_QOS_DEFAULT,
                 null, // listener
                 StatusKind.STATUS_MASK_NONE);
-        if (dataWriter == null) {
+        if (dataWriterNews == null) {
+            System.err.println("Unable to create data writer\n");
+            return;
+        }
+
+        StringDataWriter dataWriterStocks =
+                (StringDataWriter) participant.create_datawriter(
+                        topicStocks,
+                        Publisher.DATAWRITER_QOS_DEFAULT,
+                        null, // listener
+                        StatusKind.STATUS_MASK_NONE);
+        if (dataWriterStocks == null) {
             System.err.println("Unable to create data writer\n");
             return;
         }
@@ -64,13 +86,24 @@ public class HelloPublisher {
         System.out.println("When the subscriber is ready, you can start writing.");
         System.out.print("Press CTRL+C to terminate or enter an empty line to do a clean shutdown.\n\n");
 
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        for (;;)
+        {
+        dataWriterNews.write("News!", InstanceHandle_t.HANDLE_NIL);
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+        dataWriterStocks.write("Stocks!", InstanceHandle_t.HANDLE_NIL);
+        }
+
+        /*BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         try {
             while (true) {
                 System.out.print("Please type a message> ");
                 String toWrite = reader.readLine();
                 if (toWrite == null) break;     // shouldn't happen
-                dataWriter.write(toWrite, InstanceHandle_t.HANDLE_NIL);
+                dataWriterNews.write(toWrite, InstanceHandle_t.HANDLE_NIL);
                 if (toWrite.equals("")) break;
             }
         } catch (IOException e) {
@@ -84,5 +117,6 @@ public class HelloPublisher {
         System.out.println("Exiting...");
         participant.delete_contained_entities();
         DomainParticipantFactory.get_instance().delete_participant(participant);
+        */
     }
 }
