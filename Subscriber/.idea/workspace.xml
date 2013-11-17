@@ -2,36 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee876fce-544f-4d4f-8070-6030214d7e66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Publiher/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Publiher/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Publiher/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Publiher/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Publiher/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Publiher/.idea/project-template.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/project-template.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Publiher/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Publiher/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Publiher/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Publiher/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/IHA/MICO/simple/NewsSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/IHA/MICO/simple/StocksSubscriber.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/IHA/MICO/simple/HelloSubscriber.java" afterPath="$PROJECT_DIR$/src/com/IHA/MICO/simple/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Publiher/src/com/IHA/MICO/simple/HelloPublisher.java" afterPath="$PROJECT_DIR$/../Publiher/src/com/IHA/MICO/simple/HelloPublisher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Publiher/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Publiher/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Subscriber.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384455341950" ignored="false" />
-    <file path="/fragment.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384456377224" ignored="false" />
+    <file path="/fragment.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384523224291" ignored="false" />
     <file path="/Dummy.txt" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384517702084" ignored="false" />
-    <file path="/HelloSubscriber.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384518420564" ignored="false" />
+    <file path="/HelloSubscriber.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384523318414" ignored="false" />
     <file path="$PROJECT_DIR$/../Publiher/HelloPublisher.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384518477888" ignored="false" />
-    <file path="/HelloPublisher.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384518477888" ignored="false" />
+    <file path="/HelloPublisher.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384520525477" ignored="false" />
+    <file path="/NewSubsrciber.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384523863732" ignored="false" />
+    <file path="/StocksSubscriber.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384696387004" ignored="false" />
+    <file path="/NewsSubscriber.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384686311252" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +27,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -91,17 +84,49 @@
     <favorites_list name="Subscriber" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="HelloSubscriber.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/IHA/MICO/simple/HelloSubscriber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="20" selection-start="566" selection-end="566" vertical-scroll-proportion="0.032930844">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/IHA/MICO/simple/Main.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="28" column="41" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NewsSubscriber.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/IHA/MICO/simple/NewsSubscriber.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="58" column="58" selection-start="2079" selection-end="2079" vertical-scroll-proportion="1.3233831">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="StocksSubscriber.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/IHA/MICO/simple/StocksSubscriber.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="56" column="0" selection-start="2033" selection-end="2033" vertical-scroll-proportion="1.3930348">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -121,13 +146,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/IHA/Main.java" />
         <option value="$PROJECT_DIR$/src/HelloSubscriber.java" />
+        <option value="$PROJECT_DIR$/src/com/IHA/MICO/simple/NewSubsrciber.java" />
+        <option value="$PROJECT_DIR$/src/com/IHA/MICO/simple/NewsSubsrciber.java" />
         <option value="$PROJECT_DIR$/src/com/IHA/MICO/simple/HelloSubscriber.java" />
+        <option value="$PROJECT_DIR$/src/com/IHA/MICO/simple/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/IHA/MICO/simple/NewsSubscriber.java" />
+        <option value="$PROJECT_DIR$/src/com/IHA/MICO/simple/StocksSubscriber.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1856" />
-    <option name="y" value="-4" />
+    <option name="x" value="64" />
+    <option name="y" value="1076" />
     <option name="width" value="1857" />
     <option name="height" value="1085" />
   </component>
@@ -268,9 +298,24 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.IHA.Main" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" singleton="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.IHA.MICO.simple.Main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -287,29 +332,9 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
@@ -338,7 +363,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1856" y="-4" width="1857" height="1085" extended-state="6" />
+    <frame x="64" y="1076" width="1857" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -349,16 +374,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2498618" sideWeight="0.67022413" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498618" sideWeight="0.67129135" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32870865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -430,13 +455,35 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Subscriber.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.21405049" />
+        <state line="13" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.3233831">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/IHA/MICO/simple/HelloSubscriber.java">
+    <entry file="file://$PROJECT_DIR$/src/com/IHA/MICO/simple/StocksSubscriber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="566" selection-end="566" vertical-scroll-proportion="0.032930844">
-          <folding />
+        <state line="56" column="0" selection-start="2033" selection-end="2033" vertical-scroll-proportion="1.3930348">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/IHA/MICO/simple/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="41" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/IHA/MICO/simple/NewsSubscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="58" selection-start="2079" selection-end="2079" vertical-scroll-proportion="1.3233831">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
