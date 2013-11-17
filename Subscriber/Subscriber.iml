@@ -8,6 +8,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="RTI_DDS" level="application" />
+    <orderEntry type="library" name="class" level="project" />
   </component>
 </module>
 
