@@ -23,7 +23,7 @@ import com.rti.dds.type.builtin.StringDataWriter;
 import com.rti.dds.type.builtin.StringTypeSupport;
 
 //****************************************************************************
-public class HelloPublisher {
+public class Main {
     public static final void main(String[] args) {
         // Create the DDS Domain participant on domain ID 0
         DomainParticipant participant = DomainParticipantFactory.get_instance().create_participant(
