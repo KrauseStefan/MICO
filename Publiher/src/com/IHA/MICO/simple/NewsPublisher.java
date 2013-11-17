@@ -3,6 +3,7 @@ package com.IHA.MICO.simple;
 import com.rti.dds.domain.DomainParticipant;
 import com.rti.dds.infrastructure.*;
 import com.rti.dds.publication.DataWriterAdapter;
+import com.rti.dds.publication.DataWriterQos;
 import com.rti.dds.publication.Publisher;
 import com.rti.dds.topic.Topic;
 import com.rti.dds.topic.TopicQos;
@@ -21,13 +22,10 @@ public class NewsPublisher extends DataWriterAdapter{
     private boolean shutdown_flag = true;
 
     public NewsPublisher(DomainParticipant participant) {
-        TopicQos qos = new TopicQos();
-        qos.reliability.kind = ReliabilityQosPolicyKind.RELIABLE_RELIABILITY_QOS;
-
         Topic topicNews = participant.create_topic(
                 "News",
                 StringTypeSupport.get_type_name(),
-                qos,
+                DomainParticipant.TOPIC_QOS_DEFAULT,
                 null, // listener
                 StatusKind.STATUS_MASK_NONE);
         if (topicNews == null) {
@@ -35,10 +33,14 @@ public class NewsPublisher extends DataWriterAdapter{
             return;
         }
 
+        DataWriterQos dwQos = new DataWriterQos();
+        dwQos = Publisher.DATAWRITER_QOS_DEFAULT;
+        dwQos.reliability.kind = ReliabilityQosPolicyKind.RELIABLE_RELIABILITY_QOS;
+
         StringDataWriter dataWriterNews =
                 (StringDataWriter) participant.create_datawriter(
                         topicNews,
-                        Publisher.DATAWRITER_QOS_USE_TOPIC_QOS,
+                        dwQos,
                         null, // listener
                         StatusKind.STATUS_MASK_NONE);
         if (dataWriterNews == null) {
