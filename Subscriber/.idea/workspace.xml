@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee876fce-544f-4d4f-8070-6030214d7e66" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Publiher/src/com/IHA/MICO/simple/Main.java" afterPath="$PROJECT_DIR$/../Publiher/src/com/IHA/MICO/simple/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Publiher/src/com/IHA/MICO/simple/NewsPublisher.java" afterPath="$PROJECT_DIR$/../Publiher/src/com/IHA/MICO/simple/NewsPublisher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Publiher/Publiher.iml" afterPath="$PROJECT_DIR$/../Publiher/Publiher.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Publiher/src/com/IHA/MICO/simple/StockPublisher.java" afterPath="$PROJECT_DIR$/../Publiher/src/com/IHA/MICO/simple/StockPublisher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Subscriber.iml" afterPath="$PROJECT_DIR$/Subscriber.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Publiher/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Publiher/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Subscriber.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384709491658" ignored="false" />
-    <file path="/fragment.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384707157344" ignored="false" />
+    <file path="/fragment.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384711433225" ignored="false" />
     <file path="/Dummy.txt" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384707016001" ignored="false" />
     <file path="/HelloSubscriber.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384523318414" ignored="false" />
     <file path="$PROJECT_DIR$/../Publiher/HelloPublisher.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384518477888" ignored="false" />
@@ -22,7 +18,7 @@
     <file path="/StocksSubscriber.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384696387004" ignored="false" />
     <file path="/NewsSubscriber.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384686311252" ignored="false" />
     <file path="/StockPublisher.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384709656864" ignored="false" />
-    <file path="/NewsPublisher.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384710784160" ignored="false" />
+    <file path="/NewsPublisher.java" changelist="ee876fce-544f-4d4f-8070-6030214d7e66" time="1384713210318" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +87,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/IHA/MICO/simple/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="44" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.5652174">
+            <state line="29" column="90" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.19254659">
               <folding />
             </state>
           </provider>
@@ -481,7 +477,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/IHA/MICO/simple/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="44" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.5652174">
+        <state line="29" column="90" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.19254659">
           <folding />
         </state>
       </provider>

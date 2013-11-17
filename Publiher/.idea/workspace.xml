@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b3ab61f-54a1-4205-9b19-2403c9909bcc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/IHA/MICO/simple/Main.java" afterPath="$PROJECT_DIR$/src/com/IHA/MICO/simple/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/IHA/MICO/simple/NewsPublisher.java" afterPath="$PROJECT_DIR$/src/com/IHA/MICO/simple/NewsPublisher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Publiher.iml" afterPath="$PROJECT_DIR$/Publiher.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/IHA/MICO/simple/StockPublisher.java" afterPath="$PROJECT_DIR$/src/com/IHA/MICO/simple/StockPublisher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Subscriber/Subscriber.iml" afterPath="$PROJECT_DIR$/../Subscriber/Subscriber.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Subscriber/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Subscriber/.idea/workspace.xml" />
     </list>
@@ -14,7 +10,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="1b3ab61f-54a1-4205-9b19-2403c9909bcc" time="1384709491658" ignored="false" />
     <file path="$PROJECT_DIR$/../Subscriber/src/com/IHA/Main.java" changelist="1b3ab61f-54a1-4205-9b19-2403c9909bcc" time="1384455392629" ignored="false" />
-    <file path="/fragment.java" changelist="1b3ab61f-54a1-4205-9b19-2403c9909bcc" time="1384707157345" ignored="false" />
+    <file path="/fragment.java" changelist="1b3ab61f-54a1-4205-9b19-2403c9909bcc" time="1384711433223" ignored="false" />
     <file path="/Dummy.txt" changelist="1b3ab61f-54a1-4205-9b19-2403c9909bcc" time="1384707015910" ignored="false" />
     <file path="/HelloSubscriber.java" changelist="1b3ab61f-54a1-4205-9b19-2403c9909bcc" time="1384523318414" ignored="false" />
     <file path="/HelloPublisher.java" changelist="1b3ab61f-54a1-4205-9b19-2403c9909bcc" time="1384520525476" ignored="false" />
@@ -23,7 +19,7 @@
     <file path="/NewsSubscriber.java" changelist="1b3ab61f-54a1-4205-9b19-2403c9909bcc" time="1384686311252" ignored="false" />
     <file path="$PROJECT_DIR$/../Subscriber/src/com/IHA/MICO/simple/Subscriber.java" changelist="1b3ab61f-54a1-4205-9b19-2403c9909bcc" time="1384706231213" ignored="false" />
     <file path="/StockPublisher.java" changelist="1b3ab61f-54a1-4205-9b19-2403c9909bcc" time="1384709656863" ignored="false" />
-    <file path="/NewsPublisher.java" changelist="1b3ab61f-54a1-4205-9b19-2403c9909bcc" time="1384710784161" ignored="false" />
+    <file path="/NewsPublisher.java" changelist="1b3ab61f-54a1-4205-9b19-2403c9909bcc" time="1384713210318" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +95,7 @@
       <file leaf-file-name="NewsPublisher.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/IHA/MICO/simple/NewsPublisher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="70" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.49895614">
+            <state line="36" column="49" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.45528457">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -512,7 +508,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981189" sideWeight="0.68428004" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31571993" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31571993" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -623,7 +619,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/IHA/MICO/simple/NewsPublisher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="70" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.49895614">
+        <state line="36" column="49" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.45528457">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
